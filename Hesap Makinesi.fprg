@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ahmet Altan"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-02 10:48:18 &#214;S"/>
+        <attribute name="created" value="QWhtZXQgQWx0YW47REVTS1RPUC1DS0NVUUtUOzIwMjYtMDktMjg7MDg6NDM6MDcgw5ZTOzM1NzU="/>
+        <attribute name="edited" value="QWhtZXQgQWx0YW47REVTS1RPUC1DS0NVUUtUOzIwMjYtMTAtMDI7MTA6NDg6MTggw5ZTOzM7MzY2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <input variable="num2"/>
+            <declare name="islem" type="String" array="False" size=""/>
+            <input variable="islem"/>
+            <if expression="islem==&quot;-&quot;">
+                <then>
+                    <declare name="&#199;&#305;karma" type="Integer" array="False" size=""/>
+                    <assign variable="&#199;&#305;karma" expression="num1-num2"/>
+                    <output expression="&#199;&#305;karma" newline="True"/>
+                </then>
+                <else>
+                    <if expression="islem==&quot;+&quot;">
+                        <then>
+                            <declare name="Toplam" type="Integer" array="False" size=""/>
+                            <assign variable="Toplam" expression="num1+num2"/>
+                            <output expression="Toplam" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="islem==&quot;/&quot;">
+                                <then>
+                                    <declare name="B&#246;l&#252;m" type="Integer" array="False" size=""/>
+                                    <assign variable="B&#246;l&#252;m" expression="num1/num2"/>
+                                    <output expression="B&#246;l&#252;m" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="islem==&quot;*&quot;">
+                                        <then>
+                                            <declare name="&#199;arp&#305;m" type="Integer" array="False" size=""/>
+                                            <assign variable="&#199;arp&#305;m" expression="num1*num2"/>
+                                            <output expression="&#199;arp&#305;m" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
