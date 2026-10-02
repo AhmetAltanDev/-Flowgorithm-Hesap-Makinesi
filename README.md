@@ -1,24 +1,15 @@
-# 🧮 Flowgorithm Hesap Makinesi
+# Flowgorithm Hesap Makinesi
 
-Bu repo, Flowgorithm kullanarak yaptığım **ilk proje**:  
-Kullanıcıdan iki sayı ve işlem türü (`+`, `-`, `*`, `/`) alıp sonucu ekrana yazdıran basit bir hesap makinesi.
+Bu benim Flowgorithm ile yaptığım **ilk proje**.  
+Kullanıcıdan iki sayı ve işlem türü (+, -, *, /) alıyor, sonucu ekrana yazdırıyor.
 
-## 🚀 Özellikler
-- Toplama  
-- Çıkarma  
-- Çarpma  
-- Bölme  
-- Geçersiz işlem kontrolü
+Öğrendiklerim:
+- Değişken tanımlama (Declare)
+- Kullanıcıdan veri alma (Input)
+- Hesaplama yapma (Assign)
+- Sonucu gösterme (Output)
+- Karar yapıları (Decision)
 
-## 📂 Öğrendiklerim
-- **Declare / Input / Assign / Output** kutularının mantığı  
-- **Decision** ile koşul dalları kurmak  
-- Hata mesajlarını (Variable Not Declared, Type Mismatch) çözmek  
+Bu proje tamamen öğrenme amaçlıdır.  
+Benim için hatıra: algoritma mantığını ilk kez görsel olarak kurduğum proje.
 
-## 📸 Akış Diyagramı
-Flowgorithm üzerinde görsel olarak algoritma tasarlandı.  
-Her işlem için ayrı bir dal oluşturuldu ve sonuç ekrana yazdırıldı.
-
-## 🎯 Not
-Bu proje profesyonel değil, tamamen **öğrenme ve deneme amaçlıdır**.  
-Ama benim için bir hatıra: algoritma mantığını ilk kez görsel olarak kurduğum proje.
